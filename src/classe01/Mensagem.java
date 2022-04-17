@@ -1,4 +1,4 @@
-package VTOAula01;
+package classe01;
 
 public class Mensagem {
     public static void obterMensagem(int hora){

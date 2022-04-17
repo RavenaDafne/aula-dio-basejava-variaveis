@@ -1,6 +1,6 @@
 package diocursobase;
 
-public class aulavariaveisbase {
+public class AulaVariaveisBase {
         public static void main(String[] args) {
 
             int i;

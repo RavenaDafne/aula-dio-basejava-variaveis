@@ -1,4 +1,6 @@
-public class variveiseoperadores {
+package variaveis;
+
+public class VariveiseOperadores {
 
 
     public static void main(String[] args) {
@@ -18,11 +20,11 @@ public class variveiseoperadores {
 
         int i = ++k;
         int j = k++;
-        int x = k;
+
 
         System.out.println("i:  " + i);
         System.out.println("j:  " + j);
-        System.out.println("x:  " + x);
+        System.out.println("k:  " + k);
 
     }
     private static void aritmeticos(){

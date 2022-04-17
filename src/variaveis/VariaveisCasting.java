@@ -1,4 +1,6 @@
-public class variaveiscasting {
+package variaveis;
+
+public class VariaveisCasting {
 
     public static void main(String[] args) {
 

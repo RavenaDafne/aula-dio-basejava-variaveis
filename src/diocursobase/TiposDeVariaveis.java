@@ -1,6 +1,6 @@
 package diocursobase;
 
-public class tiposdevariaveis {
+public class TiposDeVariaveis {
     public static void main(String[] args) {
         //Tipos de Dados Númericos
         byte b1 = 10;
