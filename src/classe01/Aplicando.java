@@ -16,6 +16,12 @@ public class Aplicando {
         Mensagem.obterMensagem( 16);
         Mensagem.obterMensagem( 1);
 
+        // Emprestimo
+        System.out.println("Exercicio Emprestimo");
+        Emprestimo.calcular( 1000, Emprestimo.getDuasParcelas());
+        Emprestimo.calcular( 1000, Emprestimo.getTresParcelas());
+        Emprestimo.calcular(1000, 5);
+
 
     }
 }

@@ -8,10 +8,10 @@ public class Emprestimo {
         return 3;
     }
     public static double getTaxaDuasParcelas(){
-        return 0.3;
+        return 0.40;
     }
     public static double getTaxaTresParcelas(){
-        return 0.45;
+        return 0.55;
     }
     public static void calcular(double valor, int parcelas){
         if (parcelas == 2) {
