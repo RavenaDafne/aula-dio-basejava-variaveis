@@ -77,6 +77,12 @@ public class ExLista {
             if(next < 7) iterator1.remove();
         }
         System.out.println(notas);
+
+        System.out.println("Apague toda a lista:  ");
+        notas.clear();
+        System.out.println(notas);
+
+        System.out.println("Confira se a lista esta vazia: " +  notas.isEmpty());
     }
 
 
