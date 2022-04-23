@@ -34,7 +34,7 @@ public class ExProposto {
             Double next = iterator.next();
             soma += next;
         }
-        System.out.println("A Média das Temperaturas Semestrais é: " + (soma)/6 + "°C");
+        System.out.println("A Média das Temperaturas Semestrais é: " + ((soma)/ mediaTemperaturas.size()) + "°C");
         System.out.println("Temperaturas Médias Acima da Média Semestral: ");
         Iterator<Double> iterator01 = mediaTemperaturas.iterator();
         while (iterator01.hasNext()) {
