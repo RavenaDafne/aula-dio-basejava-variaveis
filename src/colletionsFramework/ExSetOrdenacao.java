@@ -37,7 +37,8 @@ public class ExSetOrdenacao {
         System.out.println("---\tOrdem Tempo de Episodio\t---");
         Set<Serie> minhasSeries5 = new TreeSet<>(new ComparatorTempodeEpisodio());
         minhasSeries5.addAll(minhasSeries);
-        for (Serie serie: minhasSeries5) System.out.println(serie.getNome() + " - " + serie.getGenero() + " - " + serie.getTempoEpisodio());
+        for (Serie serie: minhasSeries5)
+            System.out.println(serie.getNome() + " - " + serie.getGenero() + " - " + serie.getTempoEpisodio());
 
     }
 }

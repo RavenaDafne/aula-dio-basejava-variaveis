@@ -21,7 +21,7 @@ public class ExMap {
         }};
         System.out.println(carrosPopulares);
         System.out.println("Substitua  o consumo do Gol por 15,2km/l: ");
-        carrosPopulares.put("gol", 16.0);
+        carrosPopulares.put("gol", 15.2);
         System.out.println(carrosPopulares);
 
         System.out.println("Confira se o modelo Tucson está no dicionario: " + carrosPopulares.containsKey("tucson"));
